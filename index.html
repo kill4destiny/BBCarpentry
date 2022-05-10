@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ <nav id="navbar">
+        <ul class="list">
+            <li class="list">
+                <a href="#about">About</a>
+            </li>
+            <li class="list">
+                <a href="#services">Services</a>
+            </li>
+            <li class="list">
+                <a href="#photos">Photos</a>
+            </li>
+            <li class="list">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+<body>
+    <div id="head">
+    <h1 class="name">BB Carpentry</h1>
+    <h4 class="quote">Make a Difference in the Lives of Our People, Customers and Community.</h4>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>First of all, we approach each project as a team. Though we are a small company,
+             we are committed to providing outstanding service and enhancing the success of our clients by turning over quality projects on time.  
+             Our commitment to our clients, in conjunction with our team approach to the design and construction 
+             process allows us to attain our goals of creating the ideal structure backed by our client’s specific vision.
+             We strive to build long standing relationships with every client by completing every project on time with 
+             unparalleled focus on safety, communication, quality and cost efficiency.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Whole House Remodeling</li>
+            <li>Second Floor Additions</li>
+            <li>Design/Build</li>
+            <li>New Home Construction</li>
+            <li>Multi Family New Construction</li>
+            <li>Deck/Porch Design & Building</li>
+            <li>Wood, Cement, and Vinyl Siding</li>
+        </ul>
+    </section>
+
+    <section id="photos">
+        <h2>Photos</h2>
+        <div class="framing">
+            <h3>Framing</h3>
+            <img src="frame-cold.jpg" alt="Addition">
+            <img src="frame-everything.JPG" alt="house frame">
+            <img src="frame-fresh.jpg" alt="house frame">
+            <img src="frame-window.jpg" alt="house ready for window install">
+            <img src="big-frame.jpg" alt="Framing apartments">
+            <img src="frame-tyvek.jpg" alt="finished house ready for siding">
+        </div>
+        <hr>
+        <div class="siding">
+            <h3>Siding</h3>
+            <img src="copper.jpg" alt="custom blue siding">
+            <img src="siding-frame.JPG" alt="custom frame with shingle siding">
+            <img src="siding-cold.JPG" alt="finished siding">
+            <img src="siding.jpg" alt="installing siding on gable with scaffold">
+            <img src="siding-warm.jpg" alt="installing siding on apartment buildings">
+            <img src="siding-snow.jpg" alt="installing cement siding on a house">
+        </div>
+        <hr>
+        <div class="deck">
+            <h3>Deck/Porch</h3>
+            <img src="decking.jpg" alt="wood decking installed on a custom deck">
+            <img src="decking-stuckol.jpg" alt="installing deck ontop of a flat roof"><br>
+            <img src="decking-siding.jpg" alt="framed a porch with a ramp and installed decking and railings">
+            <img src="decking-side.jpg" alt="framed deck and installed flooring and railings">
+        </div>
+        <hr>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><b>Luis Barrios (Founder)</b></p>
+        <p><b>Felix Barrios(Co Founder)</b></p>
+        <form action="https://formspree.io/f/xnqwoekj" method="POST" id="submit-form">
+            <input id="name" type="text" name="name" placeholder="Full Name" required>
+            <input id="phone" type="tel" name="phone" placeholder="Phone Number" required> <br>
+            <input id="address" type="text" name="address" placeholder="Address" >
+            <input id="email" type="email" name="email" placeholder="Email" required> <br>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter your comments here..."></textarea><br>
+            <input id="submit" type="submit" value="Submit Form">
+        </form>
+        <div id="status" class="success"></div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
